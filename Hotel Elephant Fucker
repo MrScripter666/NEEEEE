@@ -187,7 +187,7 @@ section3:Button{
     Name = "Waiter/Waitress",
     Callback  = function()
 local args = {
-    [1] = "Bright red"
+    [1] = "Bright Blue"
 }
 
 game:GetService("ReplicatedStorage").ChangeTeam:InvokeServer(unpack(args))
