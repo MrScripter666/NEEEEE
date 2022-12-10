@@ -79,12 +79,12 @@ end
     
 }
 section4:Button{
-    Name = "50000",
+    Name = "5000000000",
     Callback  = function()
 
 	local args ={
     [1] = false,
-    [2] = 50000,
+    [2] = 5000000000,
     [3] = "Cash",
     [4] = game:GetService("Players").LocalPlayer
 }
