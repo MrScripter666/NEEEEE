@@ -94,12 +94,12 @@ end
     
 }
 section4:Button{
-    Name = "500000000000",
+    Name = "A lot of cash.",
     Callback  = function()
 
 	local args ={
     [1] = false,
-    [2] = 500000000000,
+    [2] = 50000000000000000000000000000000000,
     [3] = "Cash",
     [4] = game:GetService("Players").LocalPlayer
 }
@@ -187,7 +187,7 @@ section3:Button{
     Name = "Waiter/Waitress",
     Callback  = function()
 local args = {
-    [1] = "Bright Blue"
+    [1] = "Bright red"
 }
 
 game:GetService("ReplicatedStorage").ChangeTeam:InvokeServer(unpack(args))
@@ -195,10 +195,10 @@ game:GetService("ReplicatedStorage").ChangeTeam:InvokeServer(unpack(args))
     end
 }
 section3:Button{
-    Name = "Mod",
+    Name = "Neutral",
     Callback  = function()
 local args = {
-    [1] = "Purple"
+    [1] = ""
 }
 
 game:GetService("ReplicatedStorage").ChangeTeam:InvokeServer(unpack(args))
